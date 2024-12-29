@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html lang="it"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Portfolio di Jelena Dimitrijevic</title> 
+    <!-- Collegamento al file CSS -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <!-- Menu a Tendina -->
+  <nav class="dropdown-menu"> 
+    <button class="dropdown-toggle">Menu</button> 
+    <div class="dropdown-content"> 
+        <a href="#home">Home</a> 
+        <a href="#about">About</a> 
+        <a href="#resume">Resume</a> 
+        <a href="#contact">Contact</a> 
+    </div>
+    </nav>
+
+    <!-- Sezione Home -->
+    <header id="home">
+        <div class="container">
+            <h1>Jelena Dimitrijevic</h1>
+            <p>Aspiring Web Developer</p>
+            <img src="C:\Users\jelen\Desktop\university\WebPoRtfolio\images\rsz_profilepic.jpg" alt="Jelena's Photo">
+        </div>
+    </header>
+
+    <!-- Sezione About -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am Jelena Dimitrijevic, an aspiring web developer with experience in CAD/CAM technologies and research & development in the field of dental prosthetics. Passionate about new technologies and innovation, I am currently pursuing a degree in Computer Engineering & AI at the Epicode Institute of Technology.</p>
+        </div>
+    </section>
+
+    <!-- Sezione Resume -->
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <h3>Education and Training</h3>
+            <table>
+                <tr>
+                    <th>Institution</th>
+                    <th>Duration</th>
+                    <th>Course</th>
+                </tr>
+                <tr>
+                    <td>I.S.I.S. Nautico-Galvani</td>
+                    <td>2012 - 2017</td>
+                    <td>General and Professional subjects</td>
+                </tr>
+                <tr>
+                    <td>The Future School Ateneo Impresa</td>
+                    <td>August 2024</td>
+                    <td>Master in AI Management</td>
+                </tr>
+                <tr>
+                    <td>Epicode Institute of Technology</td>
+                    <td>Started Oct 2024</td>
+                    <td>Computer Engineering & AI</td>
+                </tr>
+            </table>
+            <section id="work-experience">
+                <div class="container">
+                    <h2>Work Experience</h2>
+                    <div class="experience-grid">
+                        <!-- Esperienza 1 -->
+                        <div class="experience-item">
+                            <h3>Dental Technician 🦷</h3>
+                            <p><strong>Dental Laboratory Rigoni Andrea</strong> - Trieste, Italy</p>
+                            <ul>
+                                <li>Mounted models on the articulator</li>
+                                <li>Developed model work for crowns and bridges</li>
+                                <li>Created prostheses using traditional techniques</li>
+                                <li>Designed fixed prostheses with CAD-CAM systems using EXO-CAD software</li>
+                                <li>Produced mobile skeletal prostheses with CAD-CAM systems</li>
+                            </ul>
+                        </div>
+            
+                        <!-- Esperienza 2 -->
+                        <div class="experience-item">
+                            <h3>Dental Technician 🦷</h3>
+
+                            <p><strong>Dental Laboratory Momic of Nevio Momic & Co.</strong> - Trieste, Italy</p>
+                            <ul>
+                                <li>Crafted fixed dentures using traditional methods</li>
+                                <li>Performed ceramization of anterior and posterior dental elements</li>
+                                <li>Developed fixed dentures with CAD-CAM systems using EXO-CAD software</li>
+                                <li>Created fixed monolithic prostheses (lithium disilicate)</li>
+                                <li>Designed provisional prostheses</li>
+                                <li>Painted prostheses</li>
+                            </ul>
+                        </div>
+            
+                        <!-- Esperienza 3 -->
+                        <div class="experience-item">
+                            <h3>Research & Development Specialist 🦷💻</h3>
+                            <p><strong>Zirkonzahn Srl</strong> - Italy</p>
+                            <ul>
+                                <li>Provided customer support and built strong client relationships</li>
+                                <li>Transferred to R&D department, developing advanced skills</li>
+                                <li>Enhanced problem-solving and innovative thinking for product improvement</li>
+                                <li>Collaborated with cross-functional teams to complete projects</li>
+                                <li>Conducted research to identify new opportunities and optimize processes</li>
+                                <li>Utilized advanced CAD-CAM software to design and prototype dental products</li>
+                                <li>Kept up-to-date with industry trends and technologies for cutting-edge solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+    <!-- Sezione Contatti -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Follow me on:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jelena-dimitrijevic-629880269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a></li>
+                <li><a href="https://github.com/Jelly98369">GitHub</a></li>
+            </ul>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+<!-- Collegamento al file JavaScript -->
+<script src="js/main.js"></script>
+</body>
+</html>
